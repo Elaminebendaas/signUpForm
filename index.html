@@ -5,27 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
 </head>
 <body>
     <div class="container">
 
-
-        <div class="flexitem1">
-            <img src="" alt="">
+        <div class="flex-item1">
+            <img src="" alt="Sign-Up Image">
         </div>
 
-        <div class="flexitem2">
+        <div class="flex-item2">
+            <p>This service is currently a template and not functioning</p>
+            <p>Test out below</p>
+            
             <form action="#">
-                <label for="firstname">First Name</label>
-                <input type="text" required>
+                <label for="firtname">First Name</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Thor" required>
+
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Obsidian" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="hehe@elamineweb.com">
+
+                <label for="number">Phone Number</label>
+                <input type="tel" name="number" id="number" required placeholder="111-222-3333">
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+
+                <label for="repassword">Password</label>
+                <input type="repassword" name="repassword" id="repassword">
+
             </form>
+
         </div>
 
 
 
 
-
-
-    </div> 
+    </div>
 </body>
 </html>
