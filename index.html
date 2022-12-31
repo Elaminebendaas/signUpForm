@@ -12,7 +12,10 @@
     <div class="container">
 
         <div class="flex-item1">
-            <img src="" alt="Sign-Up Image">
+            <div class="nametext">
+                <h1>EB</h1>
+                <p>Sign-Up Form</p>
+            </div>
         </div>
 
         <div class="flex-item2">
@@ -20,24 +23,36 @@
             <p>Test out below</p>
             
             <form action="#">
-                <label for="firtname">First Name</label>
-                <input type="text" name="firstname" id="firstname" placeholder="Thor" required>
+                <table>
+                    <tr> 
+                        <td><label for="firtname">First Name</label></td>
+                        <td><label for="lastname">Last Name</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="firstname" id="firstname" placeholder="Thor" required></td>
+                        <td><input type="text" name="lastname" id="lastname" placeholder="Obsidian" required></td>
+                    </tr>
 
-                <label for="lastname">Last Name</label>
-                <input type="text" name="lastname" id="lastname" placeholder="Obsidian" required>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><label for="number">Phone Number</label></td>
+                    </tr>
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required placeholder="hehe@elamineweb.com">
+                    <tr>
+                        <td><input type="email" name="email" id="email" required placeholder="hehe@elamineweb.com"></td>
+                        <td><input type="tel" name="number" id="number" required placeholder="111-222-3333"></td>
+                    </tr>
 
-                <label for="number">Phone Number</label>
-                <input type="tel" name="number" id="number" required placeholder="111-222-3333">
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td><label for="repassword">Password</label></td>
+                    </tr>
 
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password">
-
-                <label for="repassword">Password</label>
-                <input type="password" name="repassword" id="repassword">
-
+                    <tr>
+                        <td><input type="password" name="password" id="password" required></td>
+                        <td><input type="password" name="repassword" id="repassword"></td>
+                    </tr>
+                </table>
             </form>
 
         </div>
