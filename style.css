@@ -12,7 +12,21 @@ label{
     font-weight: bold;
     font-size: 16px;
 }
-
+img{
+    z-index: 1;
+    object-fit: contain;
+    position: relative;
+}
+.nametext{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f9fafb;
+    padding-left: 30%;
+    padding-right: 100px;
+}
 .container{
     display:flex;
     margin-left: auto;
@@ -20,14 +34,13 @@ label{
     margin-top: 5em;
     border-radius: 20px;
     box-shadow: 0 0 5px;
-   
-    
     width: 900px;
-    background: whitesmoke;
-    
+    background: #f9fafb;
 }
 
 .flex-item1{
+    position: relative;
+    text-align: center;
     width: 300px;
 }
 .flex-item2{
