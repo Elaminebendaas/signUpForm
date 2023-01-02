@@ -68,3 +68,6 @@ form{
 .top{
     padding: 2em;
 }
+.failedtext{
+    color: red;
+}
