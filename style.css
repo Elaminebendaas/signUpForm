@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 input{
     border: 1.2px solid lightslategray;
@@ -17,15 +19,15 @@ img{
     object-fit: contain;
     position: relative;
 }
+button{
+    
+}
+
 .nametext{
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #f9fafb;
-    padding-left: 30%;
-    padding-right: 100px;
+    margin-top: 6em;
+    align-content: center;
+    background: rgb(249, 250, 251, 0.8);
+    padding: 0.1em;
 }
 .container{
     display:flex;
@@ -42,6 +44,9 @@ img{
     position: relative;
     text-align: center;
     width: 300px;
+    background-image: url('images/splash.gif');
+    border-radius: 20px 0 0 20px;
+    background-size: contain;
 }
 .flex-item2{
        width: 600px;
@@ -49,7 +54,17 @@ img{
 
 form{
     background: white;
-    border-radius: 0 0 20px;
+    padding: 2em;
+    box-shadow: 0 0 1.5px;
+}
+.row > td{
+    padding-right: 1.5em;
+    padding-left: 1.5em;
 }
 
-
+.bottom{
+    padding: 2em;
+}
+.top{
+    padding: 2em;
+}
