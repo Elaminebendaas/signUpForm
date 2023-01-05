@@ -12,7 +12,10 @@ function passwordCheck(){
         document.getElementById('passLabel2').classList.add('failedtext')
         failedText.innerText = "Passwords do not match"
         event.preventDefault()
-    }else{
-        alert('You have signed up!')
-    }
+    }else if(password.value == ""){
+        document.getElementById('passLabel1').classList.add('failedtext')
+        document.getElementById('passLabel2').classList.add('failedtext')
+        failedText.innerText = "Enter a password"
+        event.preventDefault()
+    }else{alert('You have signed up!')}
 }
